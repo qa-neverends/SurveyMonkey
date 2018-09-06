@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.surveymonkey.Monkey.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 15.94 s <<< FAILURE! - in com.surveymonkey.Monkey.LoginPageTest
+setup(com.surveymonkey.Monkey.LoginPageTest)  Time elapsed: 13.024 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'CANADA-PC', ip: '192.168.20.129', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+Driver info: driver.version: ChromeDriver
+	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
+
