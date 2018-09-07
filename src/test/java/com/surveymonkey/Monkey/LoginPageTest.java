@@ -114,7 +114,7 @@ public class LoginPageTest {
 	}
 	
 	
-	@Test   (priority = 8)
+	/*@Test   (priority = 8)
 	void TC8TemplateDetails() throws InterruptedException     {
 		
 		tpd = new TemplatesPageDetails(driver);
@@ -126,7 +126,7 @@ public class LoginPageTest {
 		System.out.println("NumberOfQuestions in this template is : " +title);
 
 		
-	}
+	}*/
 }
 		// Go to create survey  location and click on it. 
 		//cs.clickOnCreateSurvey();
