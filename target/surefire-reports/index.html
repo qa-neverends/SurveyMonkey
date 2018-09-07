@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-skipped">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,56 +91,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,  8 skipped,  </span>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Surefire_suite">
+                    <div class="method-list-content failed suite-Surefire_suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC1LoginPageButton">TC1LoginPageButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC2EnteringUserName">TC2EnteringUserName</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC3EnteringPassword">TC3EnteringPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC4CheckOnRememberMe">TC4CheckOnRememberMe</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC5LoginButton">TC5LoginButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC6ClilckOnCreateSurveyButton">TC6ClilckOnCreateSurveyButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC7TemplateSamples">TC7TemplateSamples</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC8TemplateDetails">TC8TemplateDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC1LoginPageButton">TC1LoginPageButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC2EnteringUserName">TC2EnteringUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC3EnteringPassword">TC3EnteringPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC4CheckOnRememberMe">TC4CheckOnRememberMe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.surveymonkey.Monkey.LoginPageTest" hash-for-method="TC5LoginButton">TC5LoginButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -152,282 +161,12 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-skipped">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.surveymonkey.Monkey.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC1LoginPageButton">
-                  </a> <!-- TC1LoginPageButton -->
-                  <span class="method-name">TC1LoginPageButton</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:139)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
-	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
-	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
-	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
-	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
-	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC2EnteringUserName">
-                  </a> <!-- TC2EnteringUserName -->
-                  <span class="method-name">TC2EnteringUserName</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:139)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
-	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
-	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
-	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
-	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
-	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC3EnteringPassword">
-                  </a> <!-- TC3EnteringPassword -->
-                  <span class="method-name">TC3EnteringPassword</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:139)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
-	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
-	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
-	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
-	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
-	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC4CheckOnRememberMe">
-                  </a> <!-- TC4CheckOnRememberMe -->
-                  <span class="method-name">TC4CheckOnRememberMe</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:139)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
-	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
-	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
-	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
-	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
-	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC5LoginButton">
-                  </a> <!-- TC5LoginButton -->
-                  <span class="method-name">TC5LoginButton</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:139)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
-	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
-	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
-	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
-	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
-	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="TC6ClilckOnCreateSurveyButton">
@@ -435,16 +174,16 @@ Caused by: java.net.SocketTimeoutException: Read timed out
                   <span class="method-name">TC6ClilckOnCreateSurveyButton</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
+System info: host: &apos;CANADA-PC&apos;, ip: &apos;10.0.9.243&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.surveymonkey.Monkey.CreateSurveyPage.&lt;init&gt;(CreateSurveyPage.java:17)
+	at com.surveymonkey.Monkey.LoginPageTest.TC6ClilckOnCreateSurveyButton(LoginPageTest.java:100)
 Caused by: java.net.SocketTimeoutException: Read timed out
 	at java.net.SocketInputStream.socketRead0(Native Method)
 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
@@ -473,12 +212,10 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
+	... 37 more
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -489,16 +226,16 @@ Caused by: java.net.SocketTimeoutException: Read timed out
                   <span class="method-name">TC7TemplateSamples</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
+System info: host: &apos;CANADA-PC&apos;, ip: &apos;10.0.9.243&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.surveymonkey.Monkey.SurveyTemplatesSamples.&lt;init&gt;(SurveyTemplatesSamples.java:19)
+	at com.surveymonkey.Monkey.LoginPageTest.TC7TemplateSamples(LoginPageTest.java:109)
 Caused by: java.net.SocketTimeoutException: Read timed out
 	at java.net.SocketInputStream.socketRead0(Native Method)
 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
@@ -527,12 +264,10 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
+	... 37 more
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -541,25 +276,23 @@ Caused by: java.net.SocketTimeoutException: Read timed out
                   <a name="TC8TemplateDetails">
                   </a> <!-- TC8TemplateDetails -->
                   <span class="method-name">TC8TemplateDetails</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;CANADA-PC&apos;, ip: &apos;192.168.20.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
-Driver info: driver.version: ChromeDriver
+System info: host: &apos;CANADA-PC&apos;, ip: &apos;10.0.9.243&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.surveymonkey.Monkey.LoginPageTest.setup(LoginPageTest.java:33)
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at okio.Okio$2.read(Okio.java:139)
-	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.surveymonkey.Monkey.BasePageOfTemplates.&lt;init&gt;(BasePageOfTemplates.java:24)
+	at com.surveymonkey.Monkey.TemplatesPageDetails.&lt;init&gt;(TemplatesPageDetails.java:14)
+	at com.surveymonkey.Monkey.LoginPageTest.TC8TemplateDetails(LoginPageTest.java:118)
+Caused by: java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:230)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:285)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:241)
 	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
 	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
 	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
@@ -581,17 +314,66 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 36 more
-... Removed 29 stack frames
+	... 38 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:139)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	... 61 more
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.surveymonkey.Monkey.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1LoginPageButton">
+                  </a> <!-- TC1LoginPageButton -->
+                  <span class="method-name">TC1LoginPageButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2EnteringUserName">
+                  </a> <!-- TC2EnteringUserName -->
+                  <span class="method-name">TC2EnteringUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3EnteringPassword">
+                  </a> <!-- TC3EnteringPassword -->
+                  <span class="method-name">TC3EnteringPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4CheckOnRememberMe">
+                  </a> <!-- TC4CheckOnRememberMe -->
+                  <span class="method-name">TC4CheckOnRememberMe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5LoginButton">
+                  </a> <!-- TC5LoginButton -->
+                  <span class="method-name">TC5LoginButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -645,42 +427,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC2EnteringUserName')
+data.setCell(0, 1, 'TC6ClilckOnCreateSurveyButton')
 data.setCell(0, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 10014);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC1LoginPageButton')
+data.setCell(1, 1, 'TC8TemplateDetails')
 data.setCell(1, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 10008);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC5LoginButton')
+data.setCell(2, 1, 'TC7TemplateSamples')
 data.setCell(2, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 10004);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC7TemplateSamples')
+data.setCell(3, 1, 'TC5LoginButton')
 data.setCell(3, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 8160);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC3EnteringPassword')
+data.setCell(4, 1, 'TC2EnteringUserName')
 data.setCell(4, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 3221);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC8TemplateDetails')
+data.setCell(5, 1, 'TC3EnteringPassword')
 data.setCell(5, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 3, 3122);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC4CheckOnRememberMe')
+data.setCell(6, 1, 'TC1LoginPageButton')
 data.setCell(6, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 3, 1459);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC6ClilckOnCreateSurveyButton')
+data.setCell(7, 1, 'TC4CheckOnRememberMe')
 data.setCell(7, 2, 'com.surveymonkey.Monkey.LoginPageTest')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 186);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -708,43 +490,51 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.surveymonkey.Monkey.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">TC1LoginPageButton</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">8093 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC2EnteringUserName</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">9554 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC3EnteringPassword</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">12775 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC4CheckOnRememberMe</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">15898 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC5LoginButton</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">16085 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC6ClilckOnCreateSurveyButton</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">24245 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC7TemplateSamples</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">34286 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC8TemplateDetails</span>
-                <span class="method-start">-1536230612218 ms</span>
+                <span class="method-start">44294 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54305 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

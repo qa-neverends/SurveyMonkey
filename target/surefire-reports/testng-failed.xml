@@ -8,11 +8,6 @@
           <include name="TC7TemplateSamples"/>
           <include name="TC6ClilckOnCreateSurveyButton"/>
           <include name="tearDown"/>
-          <include name="TC2EnteringUserName"/>
-          <include name="TC1LoginPageButton"/>
-          <include name="TC3EnteringPassword"/>
-          <include name="TC4CheckOnRememberMe"/>
-          <include name="TC5LoginButton"/>
           <include name="TC8TemplateDetails"/>
           <include name="setup"/>
         </methods>

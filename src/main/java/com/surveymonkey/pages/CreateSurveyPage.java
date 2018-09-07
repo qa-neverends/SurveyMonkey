@@ -1,4 +1,4 @@
-package com.surveymonkey.Monkey;
+package com.surveymonkey.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,10 +14,10 @@ public class CreateSurveyPage {
 	public CreateSurveyPage(WebDriver driver) {
 		this.driver = driver;
 		
-		createSurveyButton = driver.findElement(By.xpath("//a[@id='button-create-survey-ribbon']"));
+		createSurveyButton = driver.findElement(By.xpath("//a[@class='create-survey alt btn SL_split']"));
 		
 			}
-		
+	
 
 
 	public void clickOnCreateSurvey()  {
